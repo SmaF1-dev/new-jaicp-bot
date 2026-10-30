@@ -1,15 +1,10 @@
-name: zb-cailapub
 
-entryPoint: main.sc
-
+name: assistant-bot
+entryPoint:
+  - main.sc
 botEngine: v2
 language: ru
-
-tests:
-  include:
-    - test.xml
-
 nlp:
   intentNoMatchThresholds:
-    phrases: 0.2
+    phrases: 0.3
     patterns: 0.2
